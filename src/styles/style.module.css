@@ -1,0 +1,94 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  color: #fff;
+  font-size: 20px;
+  height: 8%;
+  width: 8%;
+}
+.navbar {
+  align-items: center;
+  background-color: #006ae2;
+  color: #fff;
+  display: flex;
+  font-size: 20px;
+  height: 60px;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+.navList {
+  list-style-type: none;
+  padding: 0px;
+}
+.listItem {
+  display: inline-block;
+  text-decoration: none;
+}
+.listItem:hover {
+  cursor: pointer;
+}
+.NavLink {
+  color: #fff;
+  padding: 0px 10px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.inputError {
+  border-color: red;
+}
+.error {
+  color: red;
+}
+.form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 30px 30px;
+}
+.label {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+.input {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 8px 0;
+  padding: 12px 20px;
+  width: 100%;
+}
+.button {
+  background-color: #006ae2; /* Green */
+  border-radius: 8px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 2px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+}
+@media only screen and (max-width: 920px) {
+  .mainLayout {
+    display: flex;
+    flex-direction: row;
+  }
+  .navbar {
+    color: blue;
+    display: block;
+    height: 100vh;
+    width: 30vw;
+  }
+  .listItem {
+    display: list-item;
+    padding: 15px 0px;
+    text-align: center;
+  }
+}
